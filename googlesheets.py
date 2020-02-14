@@ -16,6 +16,6 @@ def google_sort(code):
     row = sheet.row_values(cell.row)
 
     #return code + row[1] + ', осталось ' + str(row[2]) + ' штук'
-    return 'код товара - ' + code + '\n' + '\n' + row[1] + '\n' + '\n' + 'цена - ' + row[2] + '\n' + '\n' + row[3]
+    return 'товар коды - ' + code + '\n' + '\n' + 'товар - ' row[1] + '\n' + '\n' + 'бағасы - ' + row[2] + '\n' + '\n' + 'размер - ' row[3]
 
 
