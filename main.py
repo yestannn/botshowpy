@@ -9,7 +9,7 @@ def message_handler(update: Update, context: CallbackContext):
 
 def main():
     
-    updater = Updater(token='971804795:AAFaS_inqqrHRXZ_Mk3CBAemJ5E6v10dtiI', use_context=True)
+    updater = Updater(token='', use_context=True)
     updater.dispatcher.add_handler(MessageHandler(filters=Filters.all, callback=message_handler))
     updater.start_polling()
     updater.idle()
